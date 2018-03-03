@@ -1,0 +1,41 @@
+body{
+    background-image: url('../assets/images/trivia-background-6.jpg')
+  
+}
+.container-fluid{
+    text-align: center;
+}
+.jumbotron{
+    font-size: 50px;
+    
+}
+header{
+    margin-bottom: 10px;
+}
+.card{
+    margin-top: 10px;
+}
+button:hover{
+    background-color: pink;
+}
+button{
+    height: 50px;
+    width: 300px;
+}
+button:focus{
+    outline: 0;
+}
+
+.history-btn{
+    margin-top: 15px;
+}
+.music-btn{
+    margin: auto;
+}
+
+.syfy-btn{
+    margin: auto;
+}
+.geography-btn{
+    margin-bottom: 15px;
+}
