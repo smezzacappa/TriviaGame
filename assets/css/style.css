@@ -1,5 +1,7 @@
 body{
-    background-image: url('../assets/images/trivia-background-6.jpg')
+    background-image: url('../images/trivia-background-6.jpg');
+
+    
   
 }
 .container-fluid{
@@ -7,25 +9,30 @@ body{
 }
 .jumbotron{
     font-size: 50px;
+    margin-top: 10px;
+    background-color: white;
+    
     
 }
 header{
     margin-bottom: 10px;
+    font-size: 30px;
 }
 .card{
     margin-top: 10px;
 }
-button:hover{
-    background-color: pink;
-}
+
 button{
     height: 50px;
     width: 300px;
 }
-button:focus{
-    outline: 0;
+.btn:focus, .btn:active{
+    outline: 0 !important;
+    box-shadow: none;
 }
-
+button:hover{
+    background-color: pink;
+}
 .history-btn{
     margin-top: 15px;
 }
@@ -38,4 +45,14 @@ button:focus{
 }
 .geography-btn{
     margin-bottom: 15px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 4px;
 }
